@@ -26,3 +26,37 @@ footer {
 	text-align: center;
 }
 
+.contenedor{
+	display:flex;
+	direction: row;
+}
+
+#contenido {
+display: flex;
+flex-direction: column;
+}
+
+#destacados .contenedor > div {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 50%;
+}
+
+#ofertas .contenedor > div {
+text-align: center;
+padding: 10px;
+margin: 10px;
+background-color: white;
+width: 33.3%;
+}
+
+#disponible .contenedor > div {
+text-align: center;
+padding: 10px;
+border: solid 5px coral;
+background-color: white;
+width: 25%;
+}
+
