@@ -66,6 +66,7 @@ width: 25%;
 
 #ofertas{
 	box-shadow: 4px 8px;
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
 }
 
 #disponible{
